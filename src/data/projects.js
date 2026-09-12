@@ -1,10 +1,10 @@
 export const projects = [
   {
-    id: 'communityloop',
+    id: 'CurriCraft',
     number: '01',
-    title: 'COMMUNITYLOOP',
+    title: 'CURRI-CRAFT',
     description:
-      'A platform concept designed to connect communities and encourage collaboration and participation.',
+      'Unified AICTE Model Curriculum Portal - A comprehensive solution for AICTE model curriculum delivery and management.',
     tech: ['React', 'JavaScript', 'Node.js', 'CSS'],
     liveUrl: 'https://github.com/Prajwal7387/CurriCraft-AI-Unified-AICTE-Model-Curriculum-Portal-',
     githubUrl: 'https://github.com/Prajwal7387/CurriCraft-AI-Unified-AICTE-Model-Curriculum-Portal-',
