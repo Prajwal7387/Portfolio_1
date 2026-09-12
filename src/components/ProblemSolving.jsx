@@ -32,7 +32,7 @@ export default function ProblemSolving() {
               LEETCODE
             </h3>
             <a
-              href="https://leetcode.com/placeholder"
+              href="https://leetcode.com/u/Q8Qm6ni6Lh/"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-3 text-label !text-accent hover:gap-5 transition-all duration-400"

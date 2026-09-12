@@ -1,26 +1,22 @@
 export const socialLinks = [
   {
     label: 'EMAIL',
-    // PLACEHOLDER — replace with actual email
-    url: 'mailto:your.email@example.com',
+    url: 'mailto:prajwalmahamuni@gmail.com',
     icon: 'Mail',
   },
   {
     label: 'GITHUB',
-    // PLACEHOLDER — replace with actual GitHub URL
-    url: 'https://github.com/placeholder',
+    url: 'https://github.com/Prajwal7387',
     icon: 'GitBranch',
   },
   {
     label: 'LINKEDIN',
-    // PLACEHOLDER — replace with actual LinkedIn URL
-    url: 'https://linkedin.com/in/placeholder',
+    url: 'https://www.linkedin.com/in/prajwal-mahamuni-621013317',
     icon: 'ExternalLink',
   },
   {
     label: 'LEETCODE',
-    // PLACEHOLDER — replace with actual LeetCode URL
-    url: 'https://leetcode.com/placeholder',
+    url: 'https://leetcode.com/u/Q8Qm6ni6Lh/',
     icon: 'Code2',
   },
 ];
