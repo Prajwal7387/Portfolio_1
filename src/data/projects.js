@@ -6,8 +6,8 @@ export const projects = [
     description:
       'A platform concept designed to connect communities and encourage collaboration and participation.',
     tech: ['React', 'JavaScript', 'Node.js', 'CSS'],
-    liveUrl: 'https://github.com/Prajwal7387/CommunityLoop',
-    githubUrl: 'https://github.com/Prajwal7387/CommunityLoop',
+    liveUrl: 'https://github.com/Prajwal7387/CurriCraft-AI-Unified-AICTE-Model-Curriculum-Portal-',
+    githubUrl: 'https://github.com/Prajwal7387/CurriCraft-AI-Unified-AICTE-Model-Curriculum-Portal-',
     accent: '#CDFF50',
     gradient: 'linear-gradient(135deg, #0a0a0a 0%, #1a2a0a 40%, #0a1a0a 100%)',
   },
@@ -18,8 +18,8 @@ export const projects = [
     description:
       'An AI-based voice interaction project exploring voice-enabled user experiences.',
     tech: ['Python', 'JavaScript', 'AI/ML', 'API'],
-    liveUrl: 'https://github.com/Prajwal7387/Voice-AI',
-    githubUrl: 'https://github.com/Prajwal7387/Voice-AI',
+    liveUrl: 'https://github.com/Prajwal7387/Tata-Hackthon',
+    githubUrl: 'https://github.com/Prajwal7387/Tata-Hackthon',
     accent: '#50CDFF',
     gradient: 'linear-gradient(135deg, #0a0a0a 0%, #0a1a2a 40%, #0a0a1a 100%)',
   },
