@@ -6,8 +6,8 @@ export const projects = [
     description:
       'Unified AICTE Model Curriculum Portal - A comprehensive solution for AICTE model curriculum delivery and management.',
     tech: ['React', 'JavaScript', 'Node.js', 'CSS'],
-    liveUrl: 'https://github.com/Prajwal7387/CurriCraft-AI-Unified-AICTE-Model-Curriculum-Portal-',
-    githubUrl: 'https://github.com/Prajwal7387/CurriCraft-AI-Unified-AICTE-Model-Curriculum-Portal-',
+    liveUrl: 'https://aicte-curri-craft-ai.vercel.app/',
+    githubUrl: 'https://github.com/Prajwal7387/AICTE-CurriCraftAI',
     accent: '#CDFF50',
     gradient: 'linear-gradient(135deg, #0a0a0a 0%, #1a2a0a 40%, #0a1a0a 100%)',
   },
