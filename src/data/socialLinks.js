@@ -1,7 +1,7 @@
 export const socialLinks = [
   {
     label: 'EMAIL',
-    url: 'mailto:prajwalmahamuni@gmail.com',
+    url: 'https://mail.google.com/mail/?view=cm&to=prajwalmahamuni@gmail.com',
     icon: 'Mail',
   },
   {
