@@ -110,7 +110,7 @@ export default function Hero() {
       >
         {/* First Name */}
         <div className="overflow-hidden">
-          <motion.h1 className="text-display-hero flex" style={{ x: smoothMouseX }} data-cursor="hover">
+          <motion.h1 className="text-display-hero flex w-fit" style={{ x: smoothMouseX }}>
             {personal.name.first.split('').map((letter, i) => (
               <motion.span
                 key={i}
@@ -119,6 +119,7 @@ export default function Hero() {
                 animate="visible"
                 custom={i}
                 className="inline-block"
+                data-cursor="hover"
               >
                 {letter}
               </motion.span>
@@ -129,13 +130,12 @@ export default function Hero() {
         {/* Last Name */}
         <div className="overflow-hidden mt-[-0.05em]">
           <motion.h1
-            className="text-display-hero flex"
+            className="text-display-hero flex w-fit"
             style={{
               x: useTransform(smoothMouseX, (v) => -v * 0.5),
               color: 'transparent',
               WebkitTextStroke: '2px var(--color-fg)',
             }}
-            data-cursor="hover"
           >
             {personal.name.last.split('').map((letter, i) => (
               <motion.span
@@ -145,6 +145,7 @@ export default function Hero() {
                 animate="visible"
                 custom={i + personal.name.first.length}
                 className="inline-block"
+                data-cursor="hover"
               >
                 {letter}
               </motion.span>
