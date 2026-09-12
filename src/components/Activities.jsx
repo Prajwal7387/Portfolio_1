@@ -1,26 +1,29 @@
 import SectionReveal, { RevealItem } from './SectionReveal';
 
-// PLACEHOLDER — replace with actual achievements and activities
 const activities = [
   {
     category: 'HACKATHONS',
-    items: ['Participated in hackathon events — details to be added'],
-  },
-  {
-    category: 'TECHNICAL EVENTS',
-    items: ['Attended and participated in technical workshops and events'],
+    items: [
+      'Participated in PU Code Hackathon with the Cultiv8 project',
+      'Developed solutions for Smart India Hackathon 2026 (SIH1465)',
+    ],
   },
   {
     category: 'CERTIFICATIONS',
-    items: ['Certifications to be added'],
+    items: [
+      'AI-related training/internship – Corizo',
+      'Python certification – IBM',
+      'JavaScript & HTML/CSS certifications',
+      'AWS / Cloud-related learning and participation certificates',
+    ],
   },
   {
-    category: 'COLLEGE ACTIVITIES',
-    items: ['Active participation in college technical and extracurricular activities'],
-  },
-  {
-    category: 'CODING PRACTICE',
-    items: ['Regular problem solving on coding platforms', 'Data Structures & Algorithms practice'],
+    category: 'TECHNICAL EVENTS & CODING',
+    items: [
+      'Active participant in coding and technical events',
+      'Solving programming and DSA problems on LeetCode',
+      'Participated in AWS/cloud-focused technical events and student communities',
+    ],
   },
 ];
 

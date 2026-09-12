@@ -76,6 +76,15 @@ export default function Navbar() {
                 {link.label}
               </a>
             ))}
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-label-sm px-4 py-2 border border-accent text-accent rounded-full hover:bg-accent hover:text-bg transition-colors duration-300"
+              data-cursor="hover"
+            >
+              RESUME
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -112,6 +121,17 @@ export default function Navbar() {
                 {link.label}
               </motion.a>
             ))}
+            <motion.a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-display-md !text-accent hover:!text-fg transition-colors"
+              initial={{ opacity: 0, y: 40 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.1 + navLinks.length * 0.08, duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+            >
+              RESUME
+            </motion.a>
           </motion.div>
         )}
       </AnimatePresence>

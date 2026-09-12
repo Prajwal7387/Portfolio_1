@@ -8,6 +8,7 @@ import {
 } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
 import { personal } from '../data/personal';
+import TypingTagline from './TypingTagline';
 
 export default function Hero() {
   const containerRef = useRef(null);
@@ -161,7 +162,9 @@ export default function Hero() {
           animate="visible"
           custom={1.6}
         >
-          <p className="text-label mb-3">{personal.tagline}</p>
+          <p className="text-label mb-3">
+            <TypingTagline />
+          </p>
           <p className="text-body-lg !text-fg-muted">{personal.intro}</p>
         </motion.div>
       </motion.div>

@@ -9,10 +9,15 @@ import Activities from './components/Activities';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import CursorEffect from './components/CursorEffect';
+import LoadingScreen from './components/LoadingScreen';
+import BackToTop from './components/BackToTop';
 
 export default function App() {
   return (
     <>
+      {/* Loading Screen */}
+      <LoadingScreen />
+
       {/* Custom Cursor */}
       <CursorEffect />
 
@@ -35,6 +40,9 @@ export default function App() {
       </main>
 
       <Footer />
+
+      {/* Back to Top */}
+      <BackToTop />
     </>
   );
 }
